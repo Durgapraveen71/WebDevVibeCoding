@@ -1,0 +1,28 @@
+/* boiler code for css*/
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    background-color: #111;
+}
+
+#parent{
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    position:relative;
+}
+
+#child{
+    height: 100px;
+    width: 100px;
+    background-color: aquamarine;
+    left: 50%;
+    position: absolute;
+}

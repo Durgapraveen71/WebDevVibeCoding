@@ -1,0 +1,22 @@
+h1{
+    color:purple;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 2000;
+    line-height:normal;
+    letter-spacing:normal;
+}
+
+p{
+    color: blueviolet;
+    background-color:rgb(26,142,72, 0.5);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 35px;
+    text-align:center;
+    text-transform:capitalize;
+    text-decoration-line: underline;
+    text-decoration-color:brown;
+    text-decoration-style:dotted;
+    text-shadow: 0px 2px 2px pink;
+}

@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+ html, body{
+    height: 100%;
+ }
+
+ body{
+    background-color: black;
+ }
+
+ /*button:hover{
+    color:red;
+    background-color:chartreuse;
+    transition: all ease-in-out 1s;
+ }
+
+ input:focus{
+    color: green;
+}
+
+li::before{
+    content: '>';
+} */
+
+#BOX{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    gap: 30px;
+    box-sizing: border-box;
+}
+.box{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    transition: all cubic-bezier(0.165, 0.84, 0.44, 1) 1s;
+}
+.box:hover{
+    transform: scale(0.8);
+    background-color: blueviolet;
+}
+
+.box1{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    margin: 20px;
+    background-color: blueviolet;
+    animation: boxx 10s cubic-bezier(0.19, 1, 0.22, 1) 1s both;
+}
+
+@keyframes boxx {
+    0%{
+        background-color: blue;
+    }
+    25%{
+        background-color: black;
+    }
+    50%{
+        background-color: chartreuse;
+    }
+    75%{
+        background-color: cyan;
+    }
+    100%{
+        background-color: brown;
+    }
+    
+}
+ 

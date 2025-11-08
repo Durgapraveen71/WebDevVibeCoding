@@ -1,0 +1,42 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    background-color: aliceblue;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: black;
+}
+
+.parent{
+    width: 100%;
+    height: 400px;
+    background-color:wheat;
+    display: flex;
+
+    flex-wrap: wrap; /* for wrapping we can use either flex wrap or flex shrink..we cn use only one at a time, if we give both at 
+    a time, if pur priority is to use shrik..then keep the value of wrap to nowrap*/
+}
+
+.child{
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    background-color: red;
+    border: 2px solid black;
+    
+}
+.child1{
+    width: 200px;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    border: 2px solid black;
+
+}

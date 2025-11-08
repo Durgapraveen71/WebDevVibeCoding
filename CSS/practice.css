@@ -1,0 +1,29 @@
+.Box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    border-radius: 15px;
+    border-style:dotted;
+    box-shadow: 10px 10px 10px black;
+    background-color:blue;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+    background-color: blueviolet;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px black;
+    box-sizing: border-box;
+
+}
+
+.BOX{
+    width: 200px;
+    height: 200px;
+    background:linear-gradient(to right, rgb(102, 255, 0), yellow, rgb(128, 0, 41));
+    background: radial-gradient(circle, orange, red, green);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px brown;
+}

@@ -1,0 +1,176 @@
+/* *{
+    padding:0%;
+    margin:0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    background-color: azure;
+} */
+
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+body{
+background-color: white;
+font-family: poppins;
+}
+#header{
+width: 100%;
+height: 55px;
+background-color: rgba(57, 57, 224, 0.96);
+display: flex;
+justify-content: center;
+gap:40px;
+}
+#ele1{
+width: 200px;
+height: 55px;
+padding-top: 5px;
+}
+#ele2{
+width: 450px;
+height:38px;
+background-color: white;
+margin-top:8px;
+border-radius: 6px;
+}
+#ele3{
+width: 100px;
+height: 38px;
+background-color: white;
+margin-top:8px;
+color:rgba(57, 57, 224, 0.96);
+}
+.small{
+font-size: 20px;
+margin-top: 4px;
+margin-left: 25px;
+}
+#ele4{
+margin-left: 0px;
+}
+#ele5{
+display: flex;
+}
+#ele6{
+display: flex;
+}
+#card{
+width: 94%;
+margin: auto;
+margin-top: 40px;
+border:1px solid rgb(214, 206, 206);
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 10px;
+padding-right: 10px;
+gap:15px;
+align-items: flex-start;
+}
+#box1{
+width: 420px;
+height: 230px;
+background-image: url(’/jyothis.jpg’);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+#box2{
+width: 420px;
+height: 230px;
+background-image: url(’/jyothis.jpg’);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+#box3{
+width: 420px;
+height: 230px;
+background-image: url(’/jyothis.jpg’);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+#box4{
+width: 420px;
+height: 230px;
+margin-left:10px;
+background-image: url(’/jyothis.jpg’);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+#box5{
+width: 420px;
+height: 230px;
+background-image: url(’/jyothis.jpg’);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+#box6{
+width: 420px;
+height: 230px;
+background-image: url(’/jyothis.jpg’);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+display: flex;
+}
+p{
+width: 100%;
+font-size: 36px;
+margin-left:34px;
+}
+#Seller{
+font-size: 18px;
+color: white;
+margin-top: 16px;
+margin-left: 0;
+}
+#d{
+margin-top: 20px;
+}
+#c{
+margin-top: 18px;
+margin-right:2px;
+}
+.subs{
+font-size: 18px;
+font-weight: 800;
+color:white;
+margin-top: 100px;
+}
+.i{
+margin-right: 20px;
+}
+#s24{
+margin-top:30px;
+margin-right: 50px;
+}
+#heads{
+margin-top:30px;
+}
+#search{
+font-size: 18px;
+color: rgb(147, 147, 147);
+margin-left: 10px;
+margin-top: 5px;
+
+
+}
+
