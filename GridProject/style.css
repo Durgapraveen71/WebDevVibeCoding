@@ -1,0 +1,110 @@
+*{
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+ 
+}
+
+.images{
+    width: 100%;
+    background-color: wheat;
+    display:grid;
+    grid-template-areas:
+    "A"
+    "B"
+    "C"
+    "D"
+    "E"
+    "F"
+    "G"
+    "H"
+    "I"
+    "J"
+    "K"
+    "L"
+    "M"
+    "N"
+    "O"
+    "P"
+    "Q"
+    "R";
+    gap:10px;
+
+}
+@media(min-width:860px)
+{
+    .images{
+       display: grid;
+    grid-template-areas:
+
+    "A B C C D E "  /*6coilums and 4 rows */
+    "F G C C H I "
+    "J K L L M N "
+    "O P L L Q R ";
+
+    gap: 5px;
+
+    }
+}
+img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+.image-A{
+    grid-area: A;
+}
+.image-B{
+    grid-area: B;
+}
+.image-C{
+    grid-area: C;
+}
+.image-D{
+    grid-area: D;
+}
+.image-E{
+    grid-area: E;
+}
+.image-F{
+    grid-area: F;
+}
+.image-G{
+    grid-area: G;
+}
+.image-H{
+    grid-area: H;
+}
+.image-I{
+    grid-area: I;
+}
+.image-J{
+    grid-area: J;
+}
+.image-K{
+    grid-area: K;
+}
+.image-L{
+    grid-area: L;
+}
+.image-M{
+    grid-area: M;
+}
+.image-N{
+    grid-area: N;
+}
+.image-O{
+    grid-area: O;
+}
+.image-P{
+    grid-area: P;
+}
+.image-Q{
+    grid-area: Q;
+}
+.image-R{
+    grid-area: R;
+}
