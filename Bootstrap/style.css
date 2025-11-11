@@ -1,0 +1,38 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: antiquewhite;
+
+}
+
+body{
+    height: 100%;
+   /*background-color: rgb(255, 88, 2); */
+
+}
+.praveen{
+    height: 200px;
+    border:0px solid black;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+    border: 2px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.durga{
+    height: 200px;
+    border:2px solid black;
+}
