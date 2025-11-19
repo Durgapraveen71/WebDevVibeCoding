@@ -1,0 +1,46 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+}
+.parent{
+    height: 300px;
+    width: 300px;
+    background-color:darkmagenta;
+    display: grid;
+    grid-template-areas:
+     "a a b"
+    "a a b"
+    "c c c "
+   /* ". . c"; */
+}
+
+.child{
+    background-color: crimson;
+    border: 2px solid black;
+}
+
+.child-a{
+    grid-area: a;
+    background-color:blue;
+}
+
+.child-b{
+    grid-area: b;
+    background-color: chartreuse;
+}
+
+.child-c{
+    grid-area: c;
+    background-color:darkslateblue;
+}
