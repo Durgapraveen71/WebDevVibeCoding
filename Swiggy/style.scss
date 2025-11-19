@@ -17,7 +17,7 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.navmenu {
+.logo {
   font-size: 1.5rem;
   font-weight: bold;
   color: #333;
@@ -76,20 +76,22 @@ nav a:hover{
 }
 
 .cards{
+    
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 25px;
-    padding: 60px 20px;
+    padding: 50px 20px;
 }
 
 .card{
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    width: 280px;
+    width: 260px;
     padding: 25px;
     text-align: center;
+    overflow: hidden;
     transition: transform 0.3s ease;
 }
 
@@ -98,9 +100,15 @@ nav a:hover{
 }
 
 .card img{
-    width: 100%;
+    width: 80%;
+    
+    object-fit: cover;
     border-radius: 10px;
     margin-bottom: 15px;
+}
+
+.card-content{
+    padding: 20px;
 }
 
 .card h3{
@@ -112,6 +120,20 @@ nav a:hover{
 .card p{
     font-size: 0.95rem;
     color: black;
+}
+
+.food-name{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 5px;
+}
+
+.price{
+    color: chartreuse;
+    font-weight:bold;
+    margin-bottom: 5px;
+
 }
 
 #contact{

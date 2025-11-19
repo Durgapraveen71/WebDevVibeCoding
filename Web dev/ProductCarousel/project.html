@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ProductCarousel</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="project.css">
+</head>
+<body>
+
+    <navbar>
+
+        <nav class="navbar navbar-expand-lg bg-primary">
+  <div class="container">
+    <a class="navbar-brand text-white" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+        </li>
+       <!--- <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li> -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Products
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Product1</a></li>
+            <li><a class="dropdown-item" href="#">Product2</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+
+      <div class="d-flex">
+
+        <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#SignInModal">Sign-In</button> <!--me-2 is the margin end means gap between sign in and sign up-->
+          <button class="btn btn-outline-light me-2" data-bs-toggle="modal" data-bs-target="#SignUpModal">Sign-Up</button>
+
+
+      </div>
+   <!--  <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form> -->
+    </div>
+  </div>
+</nav>
+
+
+
+
+
+    </navbar>
+
+    <!--Cards Section-->
+    <section class="container d-flex my-5 gap-5"> <!--mt -5 is used to get distance between nav bar and cards section and my is used to get space between topn and bottom-->
+
+        <div class="card" style="width: 18rem;">
+  <img src="/makeup1.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Magic Huda HD Professional Makeup Combo Kit For Women & Girls All Products In 1, Box For girls and women Waterproof Bridal Makeup kit (Set of 18).
+</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="/makeup2.webp" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">foundation, concealer, 2 in 1 contour, brushes set, primer, eyeshadows, mini lipstick, eyeliner, mascara, eyebrow pencil & face powder. Beautiful makeup kit.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="/makeup3.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Multicolor 6155 Makeup Kit Set with 7 Pink Makeup Brush, 1 Lipstick, Fixer, Primer, Contour, Foundation, 3in1 Eye Combo, 36H, Kajal and 1 Beauty blander-(Pack of 19)</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="/makeup4.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Dazller Lavish Love Kit - 11 in 1 long stay full makeup kit, Medium Skin Tone, Primer, Foundation, Compact, Kajal, Eyeliner, Mascara, Eyebrow Pencil, Eyeshadow, Lipbalm, Lipcolour (2)</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+    </section>
+
+    <!--Carouselsection-->
+
+    <section class="container my-5">
+
+        <div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="/carusel1.jpg" class="d-block w-100" alt="carousel image1">
+    </div>
+    <div class="carousel-item">
+      <img src="/carousel2.jpg" class="d-block w-100" alt="carousel image2">
+    </div>
+    <div class="carousel-item">
+      <img src="/carousel3.jpg" class="d-block w-100" alt="carousel image3">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+
+
+
+
+    </section>
+
+<footer class="bg-primary text-white text-center py-3"> <!--py -3 is the padding-->
+    <p class="mb-0">&copy; ProductsView | All Rights Reserved</p>
+    
+</footer>
+
+<!--Sign In modal-->
+<div class="modal" tabindex="-1" id="SignInModal" aria-labelledby="SignInLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign-In</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+    <form>
+  <div>
+<label class="form-label">Email</label>
+<input type="email" class="form-control" placeholder="Enter your E-mail">
+  </div>
+
+   <div>
+<label class="form-label">Password</label>
+<input type="password" class="form-control" placeholder="Type your password">
+  </div>
+    </form>
+
+
+      </div>
+      <div class="text-center my-2">
+        <button type="submit" class="btn btn-primary">Sign-In</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<!--Sign Up Modal-->
+
+
+<div class="modal" tabindex="-1" id="SignUpModal" aria-labelledby="SignUpLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign-Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+
+
+    <form>
+
+        <div>
+<label class="form-label">FirstName</label>
+<input type="email" class="form-control" placeholder="Enter your FirstName">
+  </div>
+
+   <div>
+<label class="form-label">LastName</label>
+<input type="email" class="form-control" placeholder="Enter your LastName">
+  </div>
+  
+   <div>
+<label class="form-label">PhoneNumber</label>
+<input type="tel" id="phone" class="form-control" placeholder="Enter your PhoneNumber">
+  </div>
+  <div>
+<label class="form-label">Email</label>
+<input type="email" class="form-control" placeholder="Enter your E-mail">
+  </div>
+
+   <div>
+<label class="form-label">Password</label>
+<input type="password" class="form-control" placeholder="Type your password">
+  </div>
+    </form>
+
+
+      </div>
+      <div class="text-center my-2">
+        <button type="submit" class="btn btn-primary">Sign-Up</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    
+    
+</body>
+</html>
